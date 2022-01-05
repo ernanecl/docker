@@ -2,7 +2,7 @@
 
 ## essential commands
 
-### o comando run tem as funções de download da imagem oficial do docker, criação de um container, a execução de um container e execução do container de modo interativo (parte visual)
+#### o comando run tem as funções de download da imagem oficial do docker, criação de um container, a execução de um container e execução do container de modo interativo (parte visual)
 docker container run hello-world
 
 ### download da imagem
