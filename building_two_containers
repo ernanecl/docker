@@ -5,7 +5,7 @@
    code .
 
 # in VS Code IDE, to create the following route: container/firt-build/Dockerfile
-# is a base of the image to be created
+# <nginx> is a base of the image to be created
 # in a production environment it is recommended to use a specific image so you don't have problems with a version your software has never been tested
    FROM nginx:latest
 
@@ -27,13 +27,13 @@ docker container run -p 80:80 ex-simple-build
 cd D:/container
 code ..
 
-# in VS Code IDE, to create the following route: container/build-com-arg/Dockerfile
+# in VS Code IDE, to create the following route: <container/build-com-arg/Dockerfile>
     
   # imagem baseada em Debian
     FROM debian
   
   # criando um label apontando um mantenedor (aquele que mantém) da imagem
-    LABEL maintainer 'Cod3r Student <student at ernane_cruz@hotmail.com'
+    LABEL maintainer 'Docker Student <student at <email@mail.com>'
 
   # definindo um argumento, passando um build (construtor), com argumento chamado de S3_BUCKET, o nome do backet de files
     ARG S3_BUCKET=files
